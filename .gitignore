@@ -1,0 +1,58 @@
+### --- Data & Large Files ---
+# ignore all data folder
+data/
+# ignore all CSV, JSON, etc）
+*.csv
+*.log
+*.sqlite
+*.npy
+*.pkl
+*.pth
+
+### --- Python related ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+.pytest_cache/
+
+### --- Conda related ---
+conda-env/
+.conda/
+mlsec_env/
+
+### ---IDE & Editors ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+### --- System Files ---
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### --- temp files ---
+tmp/
+temp/
+
+### Ignore data folder
+**/data/
